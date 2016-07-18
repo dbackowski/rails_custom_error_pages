@@ -1,0 +1,10 @@
+en:
+  rails_custom_error_pages:
+    errors:
+      show:
+        '404':
+          description: The page you were looking for doesn't exist.
+        '422':
+          description: The change you wanted was rejected.
+        '500':
+          description: We're sorry, but something went wrong.

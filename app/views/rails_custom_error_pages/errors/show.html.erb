@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Error <%= @status_code %></title>
+    <%= stylesheet_link_tag "rails_custom_error_pages/application", media: "all" %>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1><%= @status_code %></h1>
+      </div>
+      <p>
+        <%= t(".#{@status_code}.description") %>
+      </p>
+    </div>
+  </body>
+</html>
