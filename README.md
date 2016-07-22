@@ -17,6 +17,16 @@ Or install it yourself as:
 
     gem install rails_custom_error_pages
 
+## Customize 
+
+To customize template, run generator:
+
+    rails g rails_custom_error_pages:views
+
+This will copy error template to your application views as:
+
+    app/views/rails_custom_error_pages/errors/show.html.erb
+
 ## Contributing
 
 1. Fork it
