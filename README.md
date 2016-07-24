@@ -19,6 +19,21 @@ Or install it yourself as:
 
 ## Customize 
 
+To customize locale:
+
+    en:
+      rails_custom_error_pages:
+        errors:
+          show:
+            title: Error %{status_code}
+            '404':
+              description: The page you were looking for doesn't exist.
+            '422':
+              description: The change you wanted was rejected.
+            '500':
+              description: We're sorry, but something went wrong.
+
+
 To customize template, run generator:
 
     rails g rails_custom_error_pages:views
