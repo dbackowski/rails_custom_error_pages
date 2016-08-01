@@ -1,7 +1,8 @@
 # rails_custom_error_pages
 
-Rails engine for custom error pages.
+Rails engine for custom error pages with bootstrap.
 
+![screenshot](http://i.imgur.com/lvqFnen.png)
 
 ## Installation
 
