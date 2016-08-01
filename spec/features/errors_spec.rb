@@ -43,7 +43,7 @@ feature 'Errors pages' do
     expect(page).to have_content('422 The change you wanted was rejected.')
   end
 
-  it 'renders 500 page' do
+  it 'renders 500 error page' do
     allow_any_instance_of(ErrorsController).to receive(:index).and_raise()
     visit '/errors'
 
