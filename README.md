@@ -1,4 +1,4 @@
-# rails_custom_error_pages
+# rails_custom_error_pages [![Build Status](https://travis-ci.org/dbackowski/rails_custom_error_pages.svg?branch=master)](https://travis-ci.org/dbackowski/rails_custom_error_pages)
 
 Rails engine for custom error pages with bootstrap.
 
