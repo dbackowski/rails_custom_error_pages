@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_custom_error_pages (0.0.1)
+    rails_custom_error_pages (1.0.0)
       bootstrap-sass (~> 3.3.6)
       rails (~> 4.2.6)
 
