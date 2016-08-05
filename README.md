@@ -2,7 +2,7 @@
 
 Rails engine for custom error pages with bootstrap.
 
-![screenshot](http://i.imgur.com/lvqFnen.png)
+![screenshot](http://i.imgur.com/x744BAB.png)
 
 ## Installation
 

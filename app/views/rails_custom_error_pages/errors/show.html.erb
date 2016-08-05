@@ -9,12 +9,12 @@
   </head>
   <body>
     <div class="container">
-      <div class="page-header">
+      <div class="jumbotron">
         <h1><%= @status_code %></h1>
+        <p>
+          <%= t(".#{@status_code}.description") %>
+        </p>
       </div>
-      <p>
-        <%= t(".#{@status_code}.description") %>
-      </p>
     </div>
   </body>
 </html>
