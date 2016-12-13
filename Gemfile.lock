@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_custom_error_pages (1.0.0)
+    rails_custom_error_pages (1.0.1)
       bootstrap-sass (~> 3.3.6)
       rails (>= 4.2, < 5.1)
 
@@ -45,9 +45,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.7)
+    autoprefixer-rails (6.5.4)
       execjs
-    bootstrap-sass (3.3.6)
+    bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     builder (3.2.2)
