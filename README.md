@@ -8,7 +8,8 @@ Rails engine for custom error pages with bootstrap.
 
 Add this line to your application's Gemfile:
 
-    gem 'rails_custom_error_pages'
+    gem 'rails_custom_error_pages', '~> 1.0.0'
+    gem 'bootstrap-sass', '~> 3.3.6'
 
 And then execute:
 
@@ -17,6 +18,12 @@ And then execute:
 Or install it yourself as:
 
     gem install rails_custom_error_pages
+
+Remove rails default error pages from public directory:
+
+    rm public/404.html
+    rm public/422.html
+    rm public/500.html
 
 ## Customize 
 
