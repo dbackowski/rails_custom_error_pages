@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-feature 'Errors pages' do
+feature 'Error pages' do
   def handle_errors
     env_config = Rails.application.env_config
 
